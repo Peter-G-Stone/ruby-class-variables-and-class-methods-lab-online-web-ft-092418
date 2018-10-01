@@ -19,6 +19,10 @@ class Song
   end 
   
   def artists 
-    @@artists 
+    clArtists = []
+    @@artists.each do |a|
+      clArtists << a if !clArtists.include?(a)
+    end 
+    clArtists
   end 
 end 
