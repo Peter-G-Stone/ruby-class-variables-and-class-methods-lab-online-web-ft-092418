@@ -24,6 +24,7 @@ class Song
     @@genres.each do |g|
       genres << g if !genres.include?(g)
     end 
+    genres 
   end 
   
   def self.artists 
