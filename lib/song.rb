@@ -31,4 +31,8 @@ class Song
     clArtists
   end 
   
+  def self.genre_count
+    
+  end 
+  
 end 
