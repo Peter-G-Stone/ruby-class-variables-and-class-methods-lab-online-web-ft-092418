@@ -31,5 +31,4 @@ class Song
     clArtists
   end 
   
-  binding.pry 
 end 
