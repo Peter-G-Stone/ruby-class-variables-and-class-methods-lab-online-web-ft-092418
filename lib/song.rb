@@ -5,7 +5,7 @@ class Song
   
   def initialize(name, artist, genre)
     @@count += 1 
-    @@genres << genre 
+    @@genres << genre if !@@genres.include?(genre)
   end 
   
   def count 
