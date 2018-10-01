@@ -10,4 +10,8 @@ class Song
   def count 
     @@count 
   end 
+  
+  def genres 
+    
+    
 end 
