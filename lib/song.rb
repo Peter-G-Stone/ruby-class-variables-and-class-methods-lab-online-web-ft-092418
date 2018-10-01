@@ -45,7 +45,7 @@ class Song
         genreHash[g] = 1 
       end
     end 
-    
+    genreHash
   end 
   
 end 
